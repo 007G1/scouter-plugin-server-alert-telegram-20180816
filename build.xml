@@ -14,7 +14,7 @@
         <mkdir dir="${dir.classes}" />
         <jar destfile="${dir.target.jar}/scouter-plugin-server-alert-telegram.jar">
             <fileset dir="${dir.classes}"/>
-        </jar>
+        </jar> 
     	<copy file="${jar-codec-file}" todir="${dir.target.jar}" verbose="true"/>
     	<copy file="${jar-logging-file}" todir="${dir.target.jar}" verbose="true"/>
         <copy file="${jar-gson-file}" todir="${dir.target.jar}" verbose="true"/>
